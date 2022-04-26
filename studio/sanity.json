@@ -1,12 +1,12 @@
 {
   "root": true,
-  "api": {
-    "projectId": "fuvm1fyn",
-    "dataset": "production"
-  },
   "project": {
-    "name": "Netsuite Microsite Commerce",
+    "name": "<#< sanity.projectTitle >#>",
     "basePath": "/"
+  },
+  "api": {
+    "projectId": "<#< sanity.projectId >#>",
+    "dataset": "<#< sanity.dataset >#>"
   },
   "plugins": [
     "@sanity/base",
